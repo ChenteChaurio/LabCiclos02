@@ -42,3 +42,8 @@ Vicente Garzon Rios.
 ![alt text](assets/shape_interface.png)  
 16. Creamos la enumeracion RegularShapeType  
 ![alt text](assets/RegularShapeType_enum.png)  
+17. Creamos las diferentres clases de figuras.
+![alt text](assets/triangle_class.png)
+![alt text](assets/quadrilateral_class.png)
+![alt text](assets/pentagon_class.png)
+![alt text](assets/hexagon_class.png)
