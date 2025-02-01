@@ -4,7 +4,11 @@ Vicente Garzon Rios.
 
 **INVESTIGACION**
 1. El parametro "package" es una fase, es decir un paso en el ciclo de vida del desarrollo. Tiene como objetivo tomar el codigo compilado y lo empaqueta en un formato distribuible, como JAR. Otros parametros que se pueden enviar al comando mvn son: validate, compile, test, integration-test, verify, install, deploy, clean, site.  
-2. Para ejecutar un proyecto Maven desde linea de comando se usa el siguiente comando: mvn exec:java -Dexec.mainClass="\<ruta de la clase principal>". Para enviar parametros, se  agrega -Dexec.args="\<argumento>". Si el argumento contiene espacios, es necesario encerrarlo entre comillas simples (''), de lo contrario, se interpretará como varios parámetros separados por espacios.
+2. Para ejecutar un proyecto Maven desde linea de comando se usa el siguiente comando: mvn exec:java -Dexec.mainClass="\<ruta de la clase principal>". Para enviar parametros, se  agrega -Dexec.args="\<argumento>". Si el argumento contiene espacios, es necesario encerrarlo entre comillas simples (''), de lo contrario, se interpretará como varios parámetros separados por espacios.  
+
+**PREGUNTAS**  
+1. Utilizamos Simple Fabric, la mejor es Factory Method porqué es extendible, y cada nueva fabrica mantiene su propio objetivo, manteniendo el codigo limpio.
+2. Solo funciona correctamente cuando utilizamos el parametro Hexagon, debido a que es un parametro valido.
 
 **PASOS**
 1. Verificamos la version de Maven
@@ -46,4 +50,16 @@ Vicente Garzon Rios.
 ![alt text](assets/triangle_class.png)
 ![alt text](assets/quadrilateral_class.png)
 ![alt text](assets/pentagon_class.png)
-![alt text](assets/hexagon_class.png)
+![alt text](assets/hexagon_class.png)  
+18. Creamos la clase ShapeMain.
+![alt text](assets/ShapeMain_Class.png)  
+19. Creamos la clase ShapeFactory con su respectivo switch case.
+![alt text](assets/ShapeFactory_Class.png)  
+20. Modificamos el pom para poder ejecutar ShapeMain como la clase principal.
+![alt text](assets/Pom_MainCalss.png)  
+21. Ejetuamos la clase con las diferentes figuras correspondientes.
+![alt text](assets/Cmd1.png)  
+![alt text](assets/Cmd2.png)  
+22. Ejecutamos las pruebas requeridas previamente.
+![alt text](assets/prueba1.png)
+![alt text](assets/prueba2.png)

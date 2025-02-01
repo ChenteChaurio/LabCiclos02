@@ -42,6 +42,12 @@
       <artifactId>junit-jupiter-params</artifactId>
       <scope>test</scope>
     </dependency>
+  
+    <dependency>
+      <groupId>org.jboss.weld.examples</groupId>
+      <artifactId>weld-osgi-paint-triangle</artifactId>
+      <version>2.4.8.Final</version>
+    </dependency>
   </dependencies>
 
   <build>
@@ -98,7 +104,7 @@
             </execution>
           </executions>
           <configuration>
-            <mainClass>edu.eci.cvds.patterns.archetype.App</mainClass>
+            <mainClass>edu.eci.cvds.patterns.shapes.ShapeMain</mainClass>
           </configuration>
         </plugin>
       </plugins>
