@@ -35,3 +35,10 @@ Vicente Garzon Rios.
 ![alt text](assets/with_parameter2.png)  
 13. Ejecutamos la clase  con el nombre y apellido usando parametro compuesto para que imprima todo (Lee el nombre y apellido como un solo argumento)  
 ![alt text](assets/with_parameter3.png)  
+14. Creamos el paquete edu.eci.cvds.patterns.shapes y el paquete edu.eci.cvds.patterns.shapes.concrete  
+![alt text](assets/pkg_shapes.png)  
+![alt text](assets/pkg_concrete.png)  
+15. Creamos la interfaz Shape  
+![alt text](assets/shape_interface.png)  
+16. Creamos la enumeracion RegularShapeType  
+![alt text](assets/RegularShapeType_enum.png)  
